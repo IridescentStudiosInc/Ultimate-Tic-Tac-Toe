@@ -39,7 +39,12 @@ function scene:create( event )
 	background.anchorY = 0
 	background:setFillColor( .5 )
 	
-	local x1 = display.newLine()
+	local group = display.newGroup()
+
+	local myRectangle = display.newImage("crate.png")
+
+	group:insert(myRectangle)
+
 	-- all display objects must be inserted into group
 	sceneGroup:insert( background )
 end

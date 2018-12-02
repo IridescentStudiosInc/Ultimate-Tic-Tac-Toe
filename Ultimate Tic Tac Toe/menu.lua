@@ -19,7 +19,7 @@ local playBtn
 local function onPlayBtnRelease()
 	
 	-- go to field.lua scene
-	composer.gotoScene( "field.lua", "fade", 500 )
+	composer.gotoScene( "field", "fade", 500 )
 	
 	return true	-- indicates successful touch
 end
