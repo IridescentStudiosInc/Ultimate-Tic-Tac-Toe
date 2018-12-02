@@ -113,5 +113,5 @@ scene:addEventListener( "hide", scene )
 scene:addEventListener( "destroy", scene )
 
 -----------------------------------------------------------------------------------------
---Lincoln is gay
+
 return scene
